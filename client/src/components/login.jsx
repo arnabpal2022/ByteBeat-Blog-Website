@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import {Navigate} from "react-router-dom"
+import { useNavigate } from 'react-router-dom';
 const LogIn = () => {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [redirect, setRedirect] = useState(false);
+    const navigatePage = useNavigate();
 
     async function login(ev) {
         ev.preventDefault();
@@ -59,7 +61,7 @@ const LogIn = () => {
                     
                     <button className="w-full my-5 bg-teal-500 shadow-lg shadow-teal-500/80 hover:shadow-teal-500/30 text-white font-semibold rounded-lg ">Log in</button>
                     <p className="text-white text-center">Don't have any account?</p>
-                    <button href="/signup"
+                    <button onClick={() => navigatePage("/signup")}
                     className="w-full my-3 bg-green-900 shadow-lg shadow-green-500/50 hover:shadow-green-500/30 text-white font-semibold rounded-lg">
                     Create new account
                     </button>

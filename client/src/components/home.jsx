@@ -22,7 +22,7 @@ const navigatePage = useNavigate();
 
           </div>
           <button onClick={() => navigatePage("/show")}
-          className='bg-[#fecaca] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#fafafa]'>Get Started</button>
+          className='bg-[#fecaca] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#e74646] hover:bg-[#f8f4f4]'>Get Started</button>
         </div>
       </div>
       <footer className="bg-#fca5a5 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">

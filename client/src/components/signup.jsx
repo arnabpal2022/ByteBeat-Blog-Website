@@ -1,9 +1,10 @@
 import { useState } from "react";
-
+import { useNavigate } from 'react-router-dom';
 const SignUP = () => {
   const [username, setUserName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigatePage = useNavigate();
 
   async function register(ev) {
     ev.preventDefault();
@@ -80,12 +81,13 @@ const SignUP = () => {
           </button>
           <div>
             <p className="text-white text-center underline">
-              <a href="">
+              <a>
                 Already have an account?
-                <span className="font-semibold text-purple-200 font-serif">
+                <button  onClick={() => navigatePage("/login")}
+                className="font-semibold text-purple-200 font-serif">
                   {" "}
                   -Sign in
-                </span>
+                </button>
               </a>
             </p>
           </div>

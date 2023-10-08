@@ -46,7 +46,7 @@ export const Nav = () => {
               <li key={link.id}>
                 <NavLink
                   to={link.path} // Use Link instead of <a> and remove smooth and duration attributes
-                  className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
+                  className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#da5959]"
                   aria-current="page"
                 >
                   {link.link}
@@ -79,7 +79,7 @@ export const Nav = () => {
               <li key={link.id}>
                 <NavLink
                   to={link.path} // Use Link instead of <a> and remove smooth and duration attributes
-                  className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                  className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#b13333] hover:bg-[#da5959]  focus:outline-none"
                 >
                   {link.link}
                 </NavLink>
@@ -121,7 +121,7 @@ export const Nav = () => {
                         <li key={link.id}>
                           <NavLink
                             to={link.path} // Use Link instead of <a> and remove smooth and duration attributes
-                            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
+                            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#da5959]"
                           >
                             {link.link}
                           </NavLink>
@@ -140,7 +140,7 @@ export const Nav = () => {
                           <li key={link.id}>
                             <NavLink
                               to={link.path} // Use Link instead of <a> and remove smooth and duration attributes
-                              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#b13333] hover:bg-[#da5959] focus:outline-none"
                             >
                               {link.link}
                             </NavLink>
