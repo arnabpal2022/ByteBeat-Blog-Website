@@ -6,10 +6,10 @@ const Home = () => {
 const navigatePage = useNavigate();
 
   return (
-    <div className="bg-[url('https://assets.hongkiat.com/uploads/beautiful-minimalist-desktop-wallpapers/4k/original/01.jpg?3')]">
-      <div className='text-[#7e22ce]'>
+    <div className="bg-[url('https://wallpapers.com/images/featured/minimalist-7xpryajznty61ra3.jpg')]">
+      <div className='text-[#f87171]'>
         <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-          <p className='text-[#581c87] font-bold p-2'>
+          <p className='text-[#7f1d1d] font-bold p-2'>
             Welcome to our blog hosting site
           </p>
           <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
@@ -22,10 +22,10 @@ const navigatePage = useNavigate();
 
           </div>
           <button onClick={() => navigatePage("/show")}
-          className='bg-[#e9d5ff] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#6b21a8]'>Get Started</button>
+          className='bg-[#fecaca] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#fafafa]'>Get Started</button>
         </div>
       </div>
-      <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+      <footer className="bg-#fca5a5 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
         <div
           className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
           <div className="mr-12 hidden lg:block">
